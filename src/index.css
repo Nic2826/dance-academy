@@ -1,4 +1,10 @@
-:root {
+@import url('/src/Styles/Header.css');
+@import url('/src/Styles/hero.css');
+@import url('/src/Styles/About.css');
+@import url('/src/Styles/Footer.css');
+/* @import url('src/Styles/App.css'); */
+
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +71,6 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
+
+

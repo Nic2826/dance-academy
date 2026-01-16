@@ -1,0 +1,65 @@
+.header {
+  background-color: rgb(111, 0, 145);
+  padding: 25px;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 4;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.headernav-logo{
+     display: flex;
+  align-items: center;
+}
+
+.headernav-logo-photo {
+  height: 40px;
+}
+
+.headernav-logo-name {
+  color: rgba(255, 255, 255, 0.715);
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 10px;
+  transition: color 0.3s ease;
+}
+
+.headernav-logo-name:hover {
+  color: rgb(165, 66, 66);
+  cursor: pointer;
+}
+
+.headernav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.headernav-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+
+.headernav-item {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: larger;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.headernav-item:hover {
+  color: rgb(0, 0, 0);
+  transform: scale(1.1);
+  text-decoration: underline;
+}
