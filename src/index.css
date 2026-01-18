@@ -1,7 +1,17 @@
 @import url('/src/Styles/Header.css');
 @import url('/src/Styles/hero.css');
 @import url('/src/Styles/About.css');
+@import url('/src/Styles/Card.css');
+@import url('/src/Styles/FAQ.css');
+@import url('/src/Styles/Classes.css');
+@import url('/src/Styles/Schedule.css');
+@import url('/src/Styles/Popup.css');
+@import url('/src/Styles/PopupWithForm.css');
+@import url('/src/Styles/ClassesInfo.css');
+@import url('/src/Styles/Prices.css');
 @import url('/src/Styles/Footer.css');
+
+
 /* @import url('src/Styles/App.css'); */
 
 /* :root {

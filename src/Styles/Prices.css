@@ -1,0 +1,87 @@
+.Prices-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(4, auto);
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(121, 90, 151, 0.995);
+  border-radius: 30px;
+  padding: 15px 30px;
+}
+
+.Prices-oneclass {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  color: #333;
+  grid-column: 1/4;
+}
+
+.Prices-packs {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  grid-column: 1/1;
+}
+
+.Prices-packsname {
+  font-size: 25px;
+  color: #000000;
+  grid-column: 1/1;
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.Prices-quantity {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.Prices-duration {
+  font-size: 25px;
+  font-weight: normal;
+  color: #000;
+  grid-column: 2/3;
+  text-align: center;
+  margin: 0;
+}
+
+.Prices-price{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    grid-column: 3/3;
+  grid-row: 2/3;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.Prices-value {
+  font-size: 25px;
+  font-weight: normal;
+  color: #000;
+  grid-column: 3/3;
+  text-align: center;
+  margin: 0;
+}
+
+.Prices-divider1 {
+  border: 1px solid #1a0a0a;
+  width: 100%;
+  grid-column: 1/4;
+  grid-row: 3/5;
+}

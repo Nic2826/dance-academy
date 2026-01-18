@@ -1,0 +1,47 @@
+.Classes {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(3, auto);
+  align-items: center;
+  /* justify-content: space-evenly; */
+  width: 100%;
+  padding: 50px 20px;
+  margin: 0;
+}
+
+.Classes-image {
+  width: 550px;
+  height: 550px;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 50px;
+  box-shadow: #333 0px 4px 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.Classes-image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.Classes-description {
+  font-size: 20px;
+  text-align: center;
+  /* max-width: 800px; */
+  color: #333;
+  margin-bottom: 20px;
+  position: relative;
+  grid-row: 1/4;
+  grid-column: 2/3;
+  text-align: justify;
+  width: 80%;
+}
+
+.Classes-cta {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  color: #790097;
+  margin-top: 20px;
+}

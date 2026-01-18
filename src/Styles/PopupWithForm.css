@@ -1,0 +1,205 @@
+.PopupWithForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(241, 235, 235);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.PopupWithForm-form {
+  z-index: 3;
+  padding: 30px;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: rgb(90, 29, 81);
+}
+
+.PopupWithForm-title {
+  font-size: 28px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: rgb(90, 29, 81);
+  margin-top: 10px; 
+}
+
+.PopupWithForm-label {
+  margin-bottom: 0;
+}
+
+.PopupWithForm-input {
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(90, 29, 81);
+  background-color: transparent;
+  margin: 10px 0 0 0;
+  text-align: left;
+  font-size: 14px;
+  color: black;
+  height: 20px;  
+}
+
+.PopupWithForm-forgot {
+  font-size: 14px;
+  color: rgb(67, 65, 65);
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.PopupWithForm-forgot:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.PopupWithForm__close-button {
+  background-image: url("/public/close-icon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  opacity: 0.6;
+  height: 40px;
+  width: 40px;
+}
+
+.PopupWithForm__close-button:hover {
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.PopupWithForm__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.PopupWithForm-text {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(67, 65, 65);
+}
+
+.PopupWithForm-login-button {
+  display: flex;
+  background-color: rgb(90, 29, 81);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.PopupWithForm-remember-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-size: larger;
+}
+
+.PopupWithForm-remember-text {
+  font-size: small;
+  margin: 0;
+  color: rgb(67, 65, 65);
+}
+
+.PopupWithForm-password-show {
+  background-image: url("/public/show-password.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 15px;
+  position: relative;
+  top: -20px;
+  left: 75px;
+  cursor: pointer;
+}
+
+.PopupWithForm-password-hide {
+  background-image: url("/public/hide-password.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 15px;
+  position: relative;
+  top: -20px;
+  left: 75px;
+  cursor: pointer;
+}
+
+.PopupWithForm-password-icon:hover {
+  transform: scale(1.1);
+}
+
+.PopupWithForm-error {
+  position: absolute;
+  top: 135px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: red;
+  font-size: 10px;
+  font-weight: lighter;
+  margin-top: 5px;
+  text-align: center;
+  width: 280px;
+  max-width: 280px;
+  word-wrap: break-word;
+  line-height: 1.2;
+}
+
+.PopupWithForm-input-error {
+  border-color: red;
+}
+
+
+.PopupWithForm-remember-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #656565;
+  border-radius: 3px;
+  background-color: transparent; /* Transparente sin seleccionar */
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.PopupWithForm-remember-checkbox:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.PopupWithForm-remember-checkbox:checked {
+  background-color: #b634a5;
+  border-color: #310928;
+}
+
+.PopupWithForm-remember-checkbox:checked::after {
+  content: '✓';
+  position: absolute;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  top: -2px;
+  left: 2px;
+}
