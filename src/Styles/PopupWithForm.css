@@ -11,7 +11,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 16px;
 }
 
@@ -100,27 +100,13 @@
   background-color: rgb(90, 29, 81);
   color: #ffffff;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 6px 20px;
   font-size: 16px;
   cursor: pointer;
-  margin: auto;
+  margin-top: 15px;
 }
 
-.PopupWithForm-remember-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  margin-top: 0;
-  font-size: larger;
-}
-
-.PopupWithForm-remember-text {
-  font-size: small;
-  margin: 0;
-  color: rgb(67, 65, 65);
-}
 
 .PopupWithForm-password-show {
   background-image: url("/public/show-password.png");
@@ -152,26 +138,25 @@
 
 .PopupWithForm-error {
   position: absolute;
-  top: 135px;
+  top: 163px;
   left: 50%;
   transform: translateX(-50%);
   color: red;
   font-size: 10px;
-  font-weight: lighter;
-  margin-top: 5px;
+  font-weight: light;
   text-align: center;
-  width: 280px;
   max-width: 280px;
   word-wrap: break-word;
-  line-height: 1.2;
+  line-height: 1;
+  width: 70%;
 }
 
 .PopupWithForm-input-error {
   border-color: red;
 }
 
-
-.PopupWithForm-remember-checkbox {
+/* ------------------CHECKBOX REMEBER ME------------------------------- */
+/* .PopupWithForm-remember-checkbox {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -179,7 +164,7 @@
   height: 15px;
   border: 2px solid #656565;
   border-radius: 3px;
-  background-color: transparent; /* Transparente sin seleccionar */
+  background-color: transparent;
   cursor: pointer;
   position: relative;
   transition: all 0.2s ease;
@@ -202,4 +187,20 @@
   font-weight: bold;
   top: -2px;
   left: 2px;
+} */
+
+/* .PopupWithForm-remember-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-size: larger;
+  margin-top: 20px;
 }
+
+.PopupWithForm-remember-text {
+  font-size: small;
+  margin: 0;
+  color: rgb(67, 65, 65);
+} */

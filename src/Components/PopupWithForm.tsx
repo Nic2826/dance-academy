@@ -162,10 +162,11 @@ setLoading(false);
           onClick={handleClickEyeIcon}
         ></div>
 
-        <div className="PopupWithForm-remember-container">
+{/* ------------------CHECKBOX REMEBER ME-------------------------------  */}
+        {/* <div className="PopupWithForm-remember-container">
           <input className="PopupWithForm-remember-checkbox" type="checkbox"></input>
           <p className="PopupWithForm-remember-text">Remember me</p>
-        </div>
+        </div> */}
 
         <button className="PopupWithForm-login-button" type="submit" >
           {loading? "Loading..." : buttonText}

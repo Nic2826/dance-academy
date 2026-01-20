@@ -3,8 +3,8 @@
   grid-template-columns: auto;
   grid-template-rows: repeat(3, auto);
   align-items: center;
-  /* justify-content: space-evenly; */
-  width: 100%;
+  justify-content: space-around;
+  width: fit-content;
   padding: 50px 20px;
   margin: 0;
 }
@@ -28,14 +28,13 @@
 .Classes-description {
   font-size: 20px;
   text-align: center;
-  /* max-width: 800px; */
   color: #333;
   margin-bottom: 20px;
   position: relative;
   grid-row: 1/4;
   grid-column: 2/3;
   text-align: justify;
-  width: 80%;
+  width: fit-content;
 }
 
 .Classes-cta {

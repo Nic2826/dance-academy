@@ -17,7 +17,7 @@ En Heels Bucaramanga el baile no es solo técnica, es actitud, seguridad y amor 
 
 
 
-<a className="about-cta" href="">👉 Reserva tu cupo hoy y da el primer paso hacia tu versión más poderosa</a>
+<a className="about-cta" href="">👉 Reserva tu cupo HOY 👈</a>
 {/* <a className="about-cta" href="">✨ ¿Lista para vivir la experiencia? 👉 Reserva tu cupo hoy</a> */}
 
 

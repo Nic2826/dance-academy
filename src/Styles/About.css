@@ -37,7 +37,7 @@
     background-color: #622774;
     padding: 10px 20px;
     border-radius: 5px;
-    width: 770px;
+    width: fit-content;
     animation: pulse 3s infinite ease-in-out;
     box-shadow: #333333 0px 10px 20px -10px;
 }
@@ -47,8 +47,7 @@
     text-decoration: none;
     color: white;
     transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
-    
+    transition: transform 0.3s ease-in-out; 
 }
 
 @keyframes pulse {
