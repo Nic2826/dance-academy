@@ -3,16 +3,21 @@ import { faqs } from "../data/faqs";
 
 export default function FAQ() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const [itemsToShow, setItemsToShow] = useState(5);
 
   const toggleFAQ = (index: number) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
+  const handleLoadMore = () => {
+  setItemsToShow(prev => prev + faqs.length);
+};
+
   return (
     <div className="FAQ">
       <h2 className="FAQ-title">Preguntas Frecuentes</h2>
 
-      {faqs.map((faq, index) => (
+       {faqs.slice(0, itemsToShow).map((faq, index) => (
         <div className="FAQ-item" key={index}>
           <div
             className="FAQ-question"
@@ -37,6 +42,11 @@ export default function FAQ() {
           </p>
         </div>
       ))}
+      {itemsToShow < faqs.length && (
+  <button className="FAQ-button" onClick={handleLoadMore}>
+    Ver más Preguntas
+  </button>
+)}
     </div>
   );
 }

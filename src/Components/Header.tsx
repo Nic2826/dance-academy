@@ -39,22 +39,23 @@ export default function Header() {
           <a className="headernav-item" href="#clases">
             Clases
           </a>
+          <a className="headernav-item" href="#horarios">
+            Horarios
+          </a>
           <a className="headernav-item" href="#contacto">
             Contacto
           </a>
-          <a className="headernav-item" href="#contacto">
-            Help
-          </a>
-          <div className="header__access">
-            <button className="header__access-login" onClick={handleLoginClick}>
+          <div className="header__access" onClick={handleLoginClick}>
+            
+            <button className="header__access-login" >
               Log in
             </button>
             <button
               className="header__access-signup"
-          
             >
-              Sign Up
+              Log Out
             </button>
+            <img className="header__access-icon" src="/public/user-icon.webp" alt="user-icon" />
           </div>
         </div>
       </nav>

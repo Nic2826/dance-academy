@@ -11,7 +11,7 @@ export const faqs: FAQItem[] = [
   },
   {
     question: "¿Tengo que usar tacones desde la primera clase?",
-    answer: "No es obligatorio. Puedes comenzar con zapatillas o tacón bajo y, a medida que te sientas más cómoda, ir subiendo la altura."
+    answer: "No es obligatorio. Puedes comenzar con medias ya sean tobilleras o veladas, también puedes usar zapatillas o tacón bajo y, a medida que te sientas más cómoda, ir subiendo la altura."
   },
   {
     question: "¿Las clases de twerk son solo para cierto tipo de cuerpo?",
@@ -20,11 +20,11 @@ export const faqs: FAQItem[] = [
 
   {
     question: "¿Es un espacio seguro?",
-    answer: "Sí. Nuestras clases se desarrollan en un ambiente respetuoso, sororo y libre de juicios, creado exclusivamente para mujeres."
+    answer: "Sí. Nuestras clases se desarrollan en un ambiente respetuoso, seguro y libre de juicios, creado exclusivamente para mujeres."
   },
   {
     question: "¿Cuánto duran las clases?",
-    answer: "Cada clase tiene una duración aproximada de 60 minutos, incluyendo calentamiento, técnica y coreografía."
+    answer: "Cada clase tiene una duración aproximada de 1 hora, incluyendo calentamiento, técnica y coreografía."
   },
   {
     question: "¿Dónde se realizan las clases?",
@@ -32,7 +32,7 @@ export const faqs: FAQItem[] = [
   },
   {
     question: "¿Puedo unirme a la comunidad aunque aun no tome clases?",
-    answer: "¡Claro que sí! Puedes unirte a nuestra comunidad de WhatsApp para recibir información, promociones y sentir la vibra antes de dar el primer paso."
+    answer: "¡Claro que sí! Puedes unirte a nuestra comunidad de WhatsApp para recibir información, promociones y sentir la vibra antes de dar el primer paso. Te aseguramos que te encantará."
   },
   {
     question: "¿Cómo reservo mi cupo en las clases?",

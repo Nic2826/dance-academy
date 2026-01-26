@@ -6,7 +6,8 @@ import About from './Components/About'
 import FAQ from './Components/FAQ'
 import Classes from './Components/Classes'
 // import Schedule from './Components/Schedule'
-import ClassesInfo from './Components/ClassesInfo'
+import HorariosPrecios from './Components/HorariosPrecios'
+import Booking from './Components/Booking';
 import Footer from './Components/Footer'
 
 function App() {
@@ -16,9 +17,11 @@ function App() {
       <Header />
       <Hero />
       <About />
-      <FAQ />
-      <ClassesInfo />
       <Classes />
+      <HorariosPrecios />
+      <Booking />
+      
+      <FAQ />
       <Footer />
 
     </>

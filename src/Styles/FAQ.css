@@ -59,3 +59,21 @@
     visibility: visible;
     line-height: 1.5;
 }
+
+.FAQ-button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #b125b1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.FAQ-button:hover{
+  background-color: #7b0a7b;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}

@@ -1,15 +1,66 @@
 .Classes {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: repeat(3, auto);
-  align-items: center;
-  justify-content: space-around;
   width: fit-content;
   padding: 50px 20px;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
 }
 
-.Classes-image {
+.Classes-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #520644;
+  border-radius: 30px;
+  margin: 40px;
+  padding: 10px;
+  width: 80%;
+}
+
+.Classes-text-container {
+  margin-left: 10px;
+}
+
+.Classes-title {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0 auto 20px auto;
+  color: #6a3c3c;
+  text-align: center;
+}
+
+.Classes-subtitle {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 30px auto 10px auto;
+  color: white;
+  text-align: center;
+}
+
+.Classes-description-container {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  grid-row: 1/4;
+  grid-column: 2/3;
+  text-align: justify;
+  width: 85%;
+  padding-left: 40px;
+}
+
+.Classes-benefits {
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+}
+
+/* .Classes-image {
   width: 550px;
   height: 550px;
   margin-bottom: 20px;
@@ -23,7 +74,7 @@
 .Classes-image:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease-in-out;
-}
+} */
 
 .Classes-description {
   font-size: 20px;
@@ -34,7 +85,8 @@
   grid-row: 1/4;
   grid-column: 2/3;
   text-align: justify;
-  width: fit-content;
+  width: 85%;
+  padding-left: 40px;
 }
 
 .Classes-cta {
@@ -42,5 +94,6 @@
   font-weight: bold;
   text-align: center;
   color: #790097;
-  margin-top: 20px;
+  margin-top: 10px;
+  line-height: 1;
 }

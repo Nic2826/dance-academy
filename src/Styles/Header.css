@@ -64,3 +64,54 @@
   transform: scale(1.1);
   text-decoration: underline;
 }
+
+.header__access {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.header__access:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header__access-login {
+  background-color: transparent;
+  color: rgb(111, 0, 145);
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 0 0 10px;
+}
+
+.header__access-login:hover {
+  cursor: pointer;
+}
+
+.header__access-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.header__access-signup {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+.header__access-signup-visible {
+  visibility: visible;
+  background-color: transparent;
+  color: rgb(111, 0, 145);
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+}
