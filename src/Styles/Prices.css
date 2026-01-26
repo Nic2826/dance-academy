@@ -1,115 +1,58 @@
-.Prices-container {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: repeat(4, auto);
-  justify-items: center;
-  align-items: center;
-  justify-content: space-between;
-  width: 600px;
-  background-color: rgba(121, 90, 151, 0.995);
-  border-radius: 30px;
-  padding: 15px 30px;
+.Prices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #520644;
+  border-top: transparent;
+  border-radius: 20px;
+  padding: 0 30px 30px;
+  width: 200px;
+  margin: auto;
+  background-color: #7b0a7b3a;
+  box-shadow: #333333 0px 10px 20px -10px;
 }
 
-.Prices-packs {
-  font-size: 25px;
-  color: #ffffff;
+.Prices-package-container {
+  background-color: #520644 ;
+  border-radius: 18px 18px 0 0;
+  padding: 10px 0;
+  margin: -30px -31px 10px -31px;
+}
+
+.Prices-package {
+  font-size: 30px;
   font-weight: bold;
-  text-align: center;
   margin: 0;
-  padding-top: 10px;
-  grid-column: 1/1;
-  grid-row: 1/4;
-}
-
-.Prices-packsname {
-  font-size: 25px;
-  color: #000000;
-  grid-column: 1/1;
+  color: white;
   text-align: center;
-  margin: 0;
-  padding-top: 10px;
-}
-
-.Prices-quantity {
-  font-size: 25px;
-  color: #ffffff;
-  font-weight: bold;
-  grid-column: 2/3;
-  grid-row: 2/3;
-  text-align: center;
-  margin: 0;
-  padding-top: 10px;
-}
-
-.Prices-duration {
-  font-size: 25px;
-  font-weight: normal;
-  color: #000;
-  grid-column: 2/3;
-  text-align: center;
-  margin: 0;
-}
-
-.Prices-price{
-    font-size: 25px;
-    color: #ffffff;
-    font-weight: bold;
-    grid-column: 3/3;
-  grid-row: 2/3;
-    text-align: center;
-    margin: 0;
-    padding-top: 10px;
 }
 
 .Prices-value {
-  font-size: 25px;
+  font-size: 24px;
   font-weight: normal;
-  color: #000;
-  grid-column: 3/3;
-  text-align: center;
   margin: 0;
-}
-
-.Prices-divider1 {
-  border: 1px solid #1a0a0a;
-  width: 100%;
-  grid-column: 1/4;
-  grid-row: 3/5;
-}
-
-/* .Prices {
-  margin-top: 20px;
-  font-size: large;
-  color: black;
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: repeat(4, auto);
-  justify-items: center;
-  align-items: center;
-  justify-content: space-between;
-  width: 600px;
-  background-color: rgba(121, 90, 151, 0.995);
-  border-radius: 30px;
-  padding: 15px 30px;
-}
-
-.Prices-subtitle {
- font-size: 25px;
-  color: #ffffff;
-  font-weight: bold;
+  color: #333333;
   text-align: center;
-  margin: 0;
-  padding-top: 10px;
-  grid-column: 1/1;
-  grid-row: 1/4;
 }
 
 .Prices-description {
-  font-size: 25px;
-  color: #000000;
-  grid-column: 1/1;
-  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
   margin: 0;
-  padding-top: 10px;
-} */
+  color: #555555;
+  text-align: center;
+}
+
+.Prices-cta {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #dcd4de;
+  margin-top: 10px;
+  line-height: 1;
+  text-decoration: none;
+  background-color: rgba(111, 0, 145, 0.653);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}

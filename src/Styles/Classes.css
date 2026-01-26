@@ -26,9 +26,9 @@
 }
 
 .Classes-title {
-  font-size: 45px;
+  font-size: 70px;
   font-weight: bold;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 10px auto;
   color: #6a3c3c;
   text-align: center;
 }
@@ -52,6 +52,11 @@
   text-align: justify;
   width: 85%;
   padding-left: 40px;
+}
+
+.Classes-name{
+  font-weight: bold;
+  font-size: 22px;
 }
 
 .Classes-benefits {
@@ -90,7 +95,7 @@
 }
 
 .Classes-cta {
-  font-size: 22px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
   color: #790097;

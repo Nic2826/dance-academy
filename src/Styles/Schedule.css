@@ -5,10 +5,8 @@
   justify-items: center;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  background-color: rgba(121, 90, 151, 0.995);
+  width: 80%;
   border-radius: 30px;
-  padding: 15px 30px;
 }
 
 .schedule-subtitle {

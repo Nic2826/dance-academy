@@ -5,11 +5,13 @@ export default function () {
     <div className="Classes">
       <h2 className="Classes-title">Clases de Baile</h2>
       <p className="Classes-description">
-        En nuestra academia ofrecemos 2 estilos de baile: Heels y Twerk, son
+        En nuestra academia ofrecemos 2 estilos de baile: 
+        <span className="Classes-name"> Heels y Twerk</span>, son
         estilos diferentes pero complementarios entre ellos que buscan empoderar
         a las mujeres que eligen moverse desde el disfrute, la feminidad y la
         libertad, sin juicios y a su propio ritmo. Descubre un poco más sobre
-        cada estilo, elige tu favorito o… ¿por qué no? ¡ambos! 💃 Nos vemos en
+        cada estilo, elige tu favorito o… ¿por qué no? ¡ambos! Muchas alumnas los
+        combinan para tener una experiencia más completa.💃 Nos vemos en
         clase ✨
       </p>
 
@@ -63,11 +65,10 @@ export default function () {
         />
       </div>
 
-      <p className="Classes-description">
-        ¿Cuál elegir? No tienes que escoger solo uno 😉 Heels → elegancia,
-        presencia y actitud Twerk → energía, fuerza y libertad Muchas alumnas
+      {/* <p className="Classes-description">
+        ¿Heels o Twerk? No tienes que escoger solo uno 😉 Muchas alumnas
         combinan ambos para tener una experiencia más completa.
-      </p>
+      </p> */}
 
       {/* <img className="Classes-image" src="/public/Heels-vs-Twerk.png" alt="" /> */}
 

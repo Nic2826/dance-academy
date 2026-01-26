@@ -6,9 +6,10 @@ import About from './Components/About'
 import FAQ from './Components/FAQ'
 import Classes from './Components/Classes'
 // import Schedule from './Components/Schedule'
-import HorariosPrecios from './Components/HorariosPrecios'
+import ClassesType from './Components/ClassesType'
 import Booking from './Components/Booking';
 import Footer from './Components/Footer'
+import Group from './Components/Group';
 
 function App() {
 
@@ -18,7 +19,8 @@ function App() {
       <Hero />
       <About />
       <Classes />
-      <HorariosPrecios />
+      <ClassesType />
+      <Group />
       <Booking />
       
       <FAQ />

@@ -1,0 +1,72 @@
+.ClassesType {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 55px 0;
+  background-color: #f5f5f5;
+  margin: 0;
+  gap: 30px;
+}
+
+.ClassesType-title {
+  font-size: 70px;
+  font-weight: bold;
+  margin: auto;
+  color: #6a3c3c;
+  text-align: center;
+}
+
+.ClassesType-description {
+  font-size: 22px;
+  color: #333333;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.ClassesType-name {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.ClassesType-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f5f5f5;
+  width: 100%;
+  margin: 0;
+}
+
+.ClassesType-cta {
+  font-size: 35px;
+  color: #ffffff;
+  background-color: #6a3c3c;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  /* margin-top: 20px; */
+  margin: auto;
+  width: fit-content;
+  justify-self: center;
+  animation: pulse 3s infinite ease-in-out;
+  box-shadow: #333333 0px 10px 20px -10px;
+  text-decoration: none;
+}
+
+.ClassesType-cta:hover {
+  background-color: #7b4949;
+  color: white;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.ClassesType-image {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
