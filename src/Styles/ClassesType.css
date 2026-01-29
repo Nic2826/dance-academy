@@ -47,7 +47,6 @@
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
-  /* margin-top: 20px; */
   margin: auto;
   width: fit-content;
   justify-self: center;
@@ -64,9 +63,35 @@
   text-decoration: none;
 }
 
+.ClassesType-link{
+   width: 500px;
+  height: auto;
+  display: block;
+  margin: auto;
+  animation: zoom 1s ease-out;
+}
+
 .ClassesType-image {
   width: 500px;
   height: auto;
   display: block;
   margin: auto;
+  animation: zoom 1s ease-out;
+}
+
+.ClassesType-image:hover {
+  transform: scale(1.15);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }

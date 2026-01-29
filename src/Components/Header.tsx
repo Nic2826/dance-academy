@@ -36,7 +36,7 @@ export default function Header() {
           <a className="headernav-item" href="#hero">
             Home
           </a>
-          <a className="headernav-item" href="#clases">
+          <a className="headernav-item" href="#classes">
             Clases
           </a>
           <a className="headernav-item" href="#horarios">

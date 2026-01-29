@@ -15,7 +15,7 @@ export default function Prices({ Package, Price, description, ctalink }: PricesP
       
       <p className="Prices-value">{Price}</p>
       <p className="Prices-description">{description}</p>
-      <a className="Prices-cta" href={ctalink}>Comprar</a>
+      <a className="Prices-cta" href={ctalink} target="blank">Comprar</a>
     </div>
   );
 }

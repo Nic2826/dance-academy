@@ -2,7 +2,7 @@ import DriveVideo from "./Video";
 
 export default function () {
   return (
-    <div className="Classes">
+    <div className="Classes" id="classes">
       <h2 className="Classes-title">Clases de Baile</h2>
       <p className="Classes-description">
         En nuestra academia ofrecemos 2 estilos de baile: 
@@ -53,7 +53,7 @@ export default function () {
 
           <p className="Classes-description-container">
             <span className="Classes-benefits">Beneficios: </span>
-            Beneficios: Tonifica piernas y glúteos Libera estrés y bloqueos
+            Tonifica piernas y glúteos Libera estrés y bloqueos
             Conecta con tu cuerpo desde el disfrute 👉 Ideal si quieres
             soltarte, divertirte y sentirte libre.
           </p>
@@ -77,6 +77,10 @@ export default function () {
         <br />
         Escríbenos y te ayudamos a encontrar tu estilo.
       </p>
+      <div className="Classes-whatsapp">
+      <img className="Classes-whatsapp-icon" src="/public/whatsapp.png" alt="" />
+      <p className="Classes-whatsapp-number">314 443 3845</p>
+      </div>
     </div>
   );
 }

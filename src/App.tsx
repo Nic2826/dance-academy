@@ -10,6 +10,7 @@ import ClassesType from './Components/ClassesType'
 import Booking from './Components/Booking';
 import Footer from './Components/Footer'
 import Group from './Components/Group';
+import PrivateClasses from './Components/PrivateClasses';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Classes />
       <ClassesType />
       <Group />
+      <PrivateClasses />
       <Booking />
       
       <FAQ />

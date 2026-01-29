@@ -1,4 +1,60 @@
 .PrivateClasses{
     font-size: large;
-    color: black;
+    background-color: white;
+}
+
+.PrivateClasses {
+  margin: auto;
+  padding: 40px;
+}
+
+.PrivateClasses-subtitle {
+  font-size: 70px;
+  font-weight: bold;
+  margin: 0;
+  color: #6a3c3c;
+  padding-bottom: 20px;
+}
+
+.PrivateClasses-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.PrivateClasses-description {
+  font-size: 22px;
+  font-weight: normal;
+  color: #333333;
+  text-align: justify;
+  width: 90%;
+  margin: 0;
+  line-height: 1.1;
+  margin-right: 40px;
+}
+
+.PrivateClasses-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  width: 80%;
+}
+
+.PrivateClasses-benefits{
+  font-size: 22px;
+  color: #6a3c3c;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.PrivateClasses-benefits-list{
+   margin-top: 10px;
+  line-height: 1.3;
+  font-size: 20px;
+  margin-bottom: 70px;
 }

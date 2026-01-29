@@ -11,28 +11,21 @@ export default function ClassesType() {
       </p>
 
       <div className="ClassesType-container">
+
+<a href="#group" className="ClassesType-link">
         <img 
         className="ClassesType-image" 
         src="/public/GRUPALES.png" 
-        alt="" />
+        alt="" /></a>
+
+        <a href="#private" className="ClassesType-link">
         
         <img
           className="ClassesType-image"
           src="/public/PERSONALIZADO.png"
           alt=""
-        />
-
-       
-
-        {/* <h2 className="ClassesType-subtitle">PERSONALIZADAS</h2> */}
-        {/* <p className="ClassesType-group-description">
-          ¿Buscas una experiencia de aprendizaje más personalizada? Nuestras
-          clases privadas están diseñadas para adaptarse a tus necesidades
-          individuales, ya sea que quieras perfeccionar tu técnica, aprender
-          nuevos estilos o simplemente disfrutar de una atención exclusiva.
-          Puedes elegir el género que más te guste o combinar varios estilos de
-          baile
-        </p> */}
+        /></a>
+   
       </div>
 
       <a

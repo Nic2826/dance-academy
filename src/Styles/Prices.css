@@ -44,7 +44,7 @@
 }
 
 .Prices-cta {
-  font-size: 30px;
+  font-size: 27px;
   font-weight: bold;
   text-align: center;
   color: #dcd4de;
@@ -55,4 +55,12 @@
   padding: 10px;
   border-radius: 10px;
   border: 1px solid transparent;
+}
+
+.Prices-cta:hover {
+  background-color: #520644;
+  color: white;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  text-decoration: none;
 }
