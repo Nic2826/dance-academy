@@ -10,7 +10,7 @@ export default function Booking() {
             <input type="tel" placeholder="Celular" />
             <input type="date" />
             <select name="Tipo de Clase" id="Tipo de Clase" aria-placeholder="Tipo de Clase">
-                <option value="">Selecciona un tipo de clase</option>
+                {/* <option value="">Selecciona un tipo de clase</option> */}
                 <option value="Ballet">Grupal</option>
                 <option value="Contemporaneo">Personalizada</option>
             </select>
