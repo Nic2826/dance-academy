@@ -1,7 +1,8 @@
 // import Login from "./Login";
 // import Signup from "./Signup";
 // import { useState } from "react";
-
+import HeelsLogo from '../assets/Heels-logo.png';
+import UserIcon from '../assets/user-icon.webp';
 export default function Header() {
   // const [isLoginClicked, setIsLoginClicked] = useState(false);
   // const [isSignupClicked, setIsSignupClicked] = useState(false);
@@ -24,7 +25,7 @@ export default function Header() {
         <div className="headernav-logo">
           <img
             className="headernav-logo-photo"
-            src="public/images/Heels-logo.png"
+            src={HeelsLogo}
             alt="tacones-logo"
           />
           <a className="headernav-logo-name" href="#hero">
@@ -55,7 +56,7 @@ export default function Header() {
             >
               Log Out
             </button>
-            <img className="header__access-icon" src="public/images/user-icon.webp" alt="user-icon" />
+            <img className="header__access-icon" src={UserIcon} alt="user-icon" />
           </div>
         </div>
       </nav>

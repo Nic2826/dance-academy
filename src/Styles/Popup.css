@@ -56,7 +56,7 @@
 }
 
 .Popup__close-button{
-  background-image: url("public/images/closeicon.png");
+  /* background-image: url("../assets/closeicon.png"); */
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;

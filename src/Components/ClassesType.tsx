@@ -15,14 +15,14 @@ export default function ClassesType() {
 <a href="#group" className="ClassesType-link">
         <img 
         className="ClassesType-image" 
-        src="public/images/GRUPALES.png" 
+        src="../assets/GRUPALES.png" 
         alt="" /></a>
 
         <a href="#private" className="ClassesType-link">
         
         <img
           className="ClassesType-image"
-          src="public/images/PERSONALIZADO.png"
+          src="../assets/PERSONALIZADO.png"
           alt=""
         /></a>
    

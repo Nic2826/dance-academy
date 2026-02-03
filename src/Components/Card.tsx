@@ -1,3 +1,7 @@
+import estrella from "../assets/estrella.png";
+import baile from "../assets/baile.png";
+import comunidad from "../assets/comunidaddd.png";
+
 export default function Cards() {
   return (
     <div className="cards">
@@ -6,7 +10,7 @@ export default function Cards() {
         <div className="cards-image">
           <img
             className="card-photo"
-            src="public/images/baile.png"
+            src={baile}
             alt="dance-class"
           />
         </div>
@@ -23,7 +27,7 @@ export default function Cards() {
         <div className="cards-image">
           <img
             className="card-photo"
-            src="public/images/comunidaddd.png"
+            src={comunidad}
             alt="dance-class"
           />
         </div>
@@ -40,7 +44,7 @@ export default function Cards() {
         <div className="cards-image">
           <img
             className="card-photo"
-            src="public/images/estrella.png"
+            src={estrella}
             alt="dance-class"
           />
         </div>

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { faqs } from "../data/faqs";
+import OpenArrow from '../assets/flechaFAQ.png';
 
 export default function FAQ() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
@@ -27,7 +28,7 @@ export default function FAQ() {
               className={`FAQ-arrow ${
                 activeIndex === index ? "FAQ-arrow-open" : ""
               }`}
-              src="public/images/flechaFAQ.png"
+              src={OpenArrow}
               alt=""
             />
             <p className="FAQ-subtitle">{faq.question}</p>
