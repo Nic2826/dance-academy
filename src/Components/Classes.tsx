@@ -70,7 +70,7 @@ export default function () {
         combinan ambos para tener una experiencia más completa.
       </p> */}
 
-      {/* <img className="Classes-image" src="/public/Heels-vs-Twerk.png" alt="" /> */}
+      {/* <img className="Classes-image" src="public/images/Heels-vs-Twerk.png" alt="" /> */}
 
       <p className="Classes-cta">
         ¿No sabes cuál elegir?
@@ -78,7 +78,7 @@ export default function () {
         Escríbenos y te ayudamos a encontrar tu estilo.
       </p>
       <div className="Classes-whatsapp">
-      <img className="Classes-whatsapp-icon" src="/public/whatsapp.png" alt="" />
+      <img className="Classes-whatsapp-icon" src="public/images/whatsapp.png" alt="" />
       <p className="Classes-whatsapp-number">314 443 3845</p>
       </div>
     </div>

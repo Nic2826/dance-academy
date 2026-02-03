@@ -62,7 +62,7 @@
 }
 
 .PopupWithForm__close-button {
-  background-image: url("/public/close-icon.png");
+  background-image: url("public/images/close-icon.png");
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -109,7 +109,7 @@
 
 
 .PopupWithForm-password-show {
-  background-image: url("/public/show-password.png");
+  background-image: url("public/images/show-password.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 15px;
@@ -121,7 +121,7 @@
 }
 
 .PopupWithForm-password-hide {
-  background-image: url("/public/hide-password.png");
+  background-image: url("public/images/hide-password.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 15px;

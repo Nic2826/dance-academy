@@ -1,22 +1,22 @@
-import Login from "./Login";
-import Signup from "./Signup";
-import { useState } from "react";
+// import Login from "./Login";
+// import Signup from "./Signup";
+// import { useState } from "react";
 
 export default function Header() {
-  const [isLoginClicked, setIsLoginClicked] = useState(false);
-  const [isSignupClicked, setIsSignupClicked] = useState(false);
+  // const [isLoginClicked, setIsLoginClicked] = useState(false);
+  // const [isSignupClicked, setIsSignupClicked] = useState(false);
   // const { isLoggedIn, logout, userInfo } = useAuth();
 
   // setIsLoginClicked(false);
-  const handleLoginClick = () => {
-    setIsLoginClicked(true);
-    setIsSignupClicked(false);
-  };
+  // const handleLoginClick = () => {
+  //   setIsLoginClicked(true);
+  //   setIsSignupClicked(false);
+  // };
 
-  const handleClosePopupWithForm = () => {
-    setIsLoginClicked(false);
-    setIsSignupClicked(false);
-  };
+  // const handleClosePopupWithForm = () => {
+  //   setIsLoginClicked(false);
+  //   setIsSignupClicked(false);
+  // };
 
   return (
     <div className="header">
@@ -24,7 +24,7 @@ export default function Header() {
         <div className="headernav-logo">
           <img
             className="headernav-logo-photo"
-            src="/public/Heels-logo.png"
+            src="public/images/Heels-logo.png"
             alt="tacones-logo"
           />
           <a className="headernav-logo-name" href="#hero">
@@ -45,7 +45,7 @@ export default function Header() {
           <a className="headernav-item" href="#contacto">
             Contacto
           </a>
-          <div className="header__access" onClick={handleLoginClick}>
+          <div className="header__access" >
             
             <button className="header__access-login" >
               Log in
@@ -55,12 +55,12 @@ export default function Header() {
             >
               Log Out
             </button>
-            <img className="header__access-icon" src="/public/user-icon.webp" alt="user-icon" />
+            <img className="header__access-icon" src="public/images/user-icon.webp" alt="user-icon" />
           </div>
         </div>
       </nav>
-      {isLoginClicked ? <Login onClose={handleClosePopupWithForm} /> : ""}
-      {isSignupClicked ? <Signup onClose={handleClosePopupWithForm} /> : ""}
+      {/* {isLoginClicked ? <Login onClose={handleClosePopupWithForm} /> : ""}
+      {isSignupClicked ? <Signup onClose={handleClosePopupWithForm} /> : ""} */}
     </div>
   );
 }

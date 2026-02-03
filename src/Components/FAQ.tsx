@@ -27,7 +27,7 @@ export default function FAQ() {
               className={`FAQ-arrow ${
                 activeIndex === index ? "FAQ-arrow-open" : ""
               }`}
-              src="/public/flechaFAQ.png"
+              src="public/images/flechaFAQ.png"
               alt=""
             />
             <p className="FAQ-subtitle">{faq.question}</p>

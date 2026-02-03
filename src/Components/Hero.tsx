@@ -5,7 +5,7 @@ export default function hero() {
       <div className="hero-overlay"></div>
       <h1 className="hero-title">Bienvenida</h1>
       <p className="hero-description">Descrubre tu Diosa interior y empoderate con nuestras clases de baile. </p>
-      <img className="hero-arrows" src="/public/flecha.png" alt="flechas" />
+      <img className="hero-arrows" src="public/images/flecha.png" alt="flechas" />
     </div>
   )
 }

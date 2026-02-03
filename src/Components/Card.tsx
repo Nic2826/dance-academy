@@ -6,7 +6,7 @@ export default function Cards() {
         <div className="cards-image">
           <img
             className="card-photo"
-            src="/public/baile.png"
+            src="public/images/baile.png"
             alt="dance-class"
           />
         </div>
@@ -23,7 +23,7 @@ export default function Cards() {
         <div className="cards-image">
           <img
             className="card-photo"
-            src="/public/comunidaddd.png"
+            src="public/images/comunidaddd.png"
             alt="dance-class"
           />
         </div>
@@ -40,7 +40,7 @@ export default function Cards() {
         <div className="cards-image">
           <img
             className="card-photo"
-            src="/public/estrella.png"
+            src="public/images/estrella.png"
             alt="dance-class"
           />
         </div>
