@@ -17,10 +17,9 @@ export default function () {
       </p>
 
       <div className="Classes-container">
+        
         <DriveVideo
           videoId="1cXw36nt58cYyV3-h7MiwBRkg8j0xSLIx"
-          width="500"
-          height="300"
         />
 
         <div className="Classes-text-container">
@@ -59,11 +58,11 @@ export default function () {
             soltarte, divertirte y sentirte libre.
           </p>
         </div>
+        
         <DriveVideo
           videoId="1WNfMtFHSQAB_AICAyUMVsN-xxDqijvWC"
-          width="500"
-          height="300"
         />
+        
       </div>
 
       {/* <p className="Classes-description">

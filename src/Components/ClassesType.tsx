@@ -1,3 +1,6 @@
+import GrupalesImage from '../assets/GRUPALES.png';
+import personalizadoImage from '../assets/PERSONALIZADO.png';
+
 export default function ClassesType() {
   return (
     <div className="ClassesType">
@@ -15,14 +18,14 @@ export default function ClassesType() {
 <a href="#group" className="ClassesType-link">
         <img 
         className="ClassesType-image" 
-        src="../assets/GRUPALES.png" 
+        src={GrupalesImage}
         alt="" /></a>
 
         <a href="#private" className="ClassesType-link">
         
         <img
           className="ClassesType-image"
-          src="../assets/PERSONALIZADO.png"
+          src={personalizadoImage}
           alt=""
         /></a>
    

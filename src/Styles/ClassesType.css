@@ -95,3 +95,15 @@
     opacity: 1;
   }
 }
+
+/* --------------------------PANTALLAS---------------------- */
+
+/* TABLETS */
+@media (max-width: 1024px) {
+}
+
+/* CELULARES */
+@media (max-width: 800px) {
+
+
+}

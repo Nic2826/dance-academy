@@ -8,5 +8,14 @@ font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: #9e689682;
   margin: 0;
   padding:0;
-  max-width: 1800px;
+  width: 100%;
+  max-width: 1400px;
+  box-sizing: border-box;
+  
+}
+
+@media (min-width: 1920px) {
+  body {
+    max-width: 1400px;
+  }
 }

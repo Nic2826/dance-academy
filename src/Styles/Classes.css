@@ -1,6 +1,6 @@
 .Classes {
-  width: fit-content;
-  padding: 50px 20px;
+  width: 100%;
+  padding: 30px 20px;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,8 @@
   justify-content: center;
   margin: 40px;
   padding: 0;
-  width: 80%;
+  width: fit-content;
+  line-height: 1.2;
 }
 
 .Classes-text-container {
@@ -30,7 +31,7 @@
   font-size: 70px;
   font-weight: bold;
   margin: 0 auto 10px auto;
-  color: #6a3c3c;
+  color:#272527;
   text-align: center;
   
 }
@@ -61,7 +62,7 @@
 
 .Classes-name{
   font-weight: bold;
-  font-size: 22px;
+  font-size: 27px;
 }
 
 .Classes-benefits {
@@ -71,7 +72,7 @@
 }
 
 .Classes-description {
-  font-size: 20px;
+  font-size: 27px;
   text-align: center;
   /* color: #333; */
   color: black;
@@ -81,7 +82,7 @@
   grid-column: 2/3;
   text-align: justify;
   width: 85%;
-  padding-left: 40px;
+  line-height: 1.4;
 }
 
 .Classes-cta {
@@ -109,3 +110,133 @@
     font-weight: bold;
     color:#251725a4;
   }
+
+  /* --------------------------PANTALLAS---------------------- */
+
+/* TABLETS */
+@media (max-width: 1024px) {
+
+.Classes-title {
+  font-size: 70px;
+  font-weight: bold;
+  margin: 0 auto 5px auto;  
+}
+
+.Classes-subtitle {
+  font-size: 25px;
+  margin: 0; 
+  padding: 15px 20px; 
+}
+
+.Classes-description-container {
+  font-size: 15px;
+}
+
+.Classes-name{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.Classes-benefits {
+  font-weight: bold;
+  color:#520644;
+  font-size: 22px;
+}
+
+.Classes-description {
+  font-size: 20px;
+}
+
+.Classes-cta {
+  font-size: 30px;
+}
+
+.Classes-whatsapp{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.Classes-whatsapp-icon{
+  height: 50px;}
+
+  .Classes-whatsapp-number{
+    font-size: 30px;
+    font-weight: bold;
+    color:#251725a4;
+  }
+
+  .Classes-container {
+    margin: 20px;
+  }
+
+}
+
+/* CELULARES */
+@media (max-width: 900px) {
+.Classes-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 auto 5px auto; 
+}
+
+.Classes-subtitle {
+  font-size: 25px;
+  margin: 0; 
+  padding: 5px 10px; 
+}
+
+.Classes-description-container {
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.Classes-name{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.Classes-benefits {
+  font-weight: bold;
+  color:#520644;
+  font-size: 22px;
+}
+
+.Classes-description {
+  font-size: 16px;
+  margin: 10px;
+}
+
+.Classes-cta {
+  font-size: 18px;
+}
+
+.Classes-whatsapp{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.Classes-whatsapp-icon{
+  height: 50px;}
+
+  .Classes-whatsapp-number{
+    font-size: 30px;
+    font-weight: bold;
+    color:#251725a4;
+  }
+
+  .Classes-container {
+    margin: 20px;
+  }
+
+  .Classes-text-container {
+    margin-left: 0;
+    width: fit-content;
+  }
+
+}

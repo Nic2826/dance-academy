@@ -38,7 +38,7 @@ export default function Group() {
         <Prices
           Package="1 Sola Clase"
           Price="$25.000"
-          description="1 sola clase al mes"
+          description="1 sola clase"
           ctalink="https://wa.me/573144433845?text=Hola%2C%20quiero%20reservar%20una%20sola%20Clase%20Grupal"
         />
 
